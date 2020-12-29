@@ -1,0 +1,32 @@
+.pre-header{
+	background-color: rgba(0,0,0);
+	height: 2em;	
+}
+/*nav-bar*/
+nav{
+	background-color: rgba(255,255,0);
+	width: 100%;
+}
+nav img{
+	height: 5em;
+}
+nav a{
+	color: rgba(0,0,0);
+	font-size: 1em;
+	letter-spacing: 0.3em;
+	margin-left: 2em;
+	font-weight: bold;
+}
+#search{
+	border-radius: 0.5em;
+	height: 2.6em;
+}
+.userphoto{
+	height: 3em;
+}
+.userbutton{
+	border:0;
+	padding: 0;
+	background-color: rgba(255,255,0);
+	margin:1em 0em 1em 0em;
+}
