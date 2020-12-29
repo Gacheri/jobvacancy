@@ -30,3 +30,76 @@ nav a{
 	background-color: rgba(255,255,0);
 	margin:1em 0em 1em 0em;
 }
+.dropdwn{
+	background-color: rgba(0,255,0,.7);
+	
+}
+.dropbtn2:hover .dropdwn{
+	display: block;
+}
+
+/*jumbotron*/
+#jumbotroncustom{
+	background-color: rgba(0,0,0);
+}
+#murdertext1{
+	color: rgba(255,255,255);
+	font-size: 5em;
+}
+#murdertext2{
+	color: rgba(255,255,255);
+	font-size: 1em;
+	margin-top: 15em;
+}
+
+/*about us*/
+.about{
+	margin: auto;
+	letter-spacing: 0.5em;
+	border:0.2em solid rgba(255,255,0);
+	padding: 1em;
+	font-size: 1.5em;
+}
+#about2{
+	width: 50em;
+	font-size: 1.5em;
+	margin:auto;
+}
+
+/*popular categories*/
+.popular{
+	margin-top: 1em;
+	padding: 1em;
+	background-color: rgba(0,0,0);
+	color: rgba(255,255,255);
+	letter-spacing: 0.5em;
+}
+.card{
+	margin:1em;
+}
+.cardcategory{
+	display: inline-flex;
+}
+.cardcategory img{
+	height: 10em;
+	padding: 1em;
+	margin: 2em;
+}
+#contactbtn{
+	margin: 4em 0em 0em 12em;
+	letter-spacing: 0.25em;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+.socials{
+	color: rgba(255,255,255);
+	background-color: rgba(0,0,0);
+}
+.socials img{
+	height: 2em;
+}
+#subscribebtn{
+	margin-left: 9em;
+}
