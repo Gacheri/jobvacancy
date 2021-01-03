@@ -14,41 +14,37 @@
 		<div class="pre-header row">	
 		</div>
 		<!-- pre-header end -->
-
 		<!-- nav-bar start -->
-		<div class="row">
-			
+		<nav class="navbar navbar-expand-lg topnav row">
+			<a class="navbar-brand" href="#"> <img class="logo" src="images/logo.svg" height="40">MA-WERA</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbar1">
+			<ul class="navbar-nav ml-auto"> 
+				<li>
+					<div class="form-group">
+						<input type="text" placeholder="search" id="searchspace">
+						<button class="btn btn-success" >search</button>
+					</div>
+				</li>
+		<li class="nav-item active">
+		<a class="nav-link" href="#">SIGN UP<span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item"><a class="nav-link" href="html-components.html"> LOGIN </a></li>
 		
-		<nav class="navbar navbar-expand-lg">
-    		<a class="navbar-brand" href="#"><img class="logophoto" src="images/logo.svg"></a>
-    		<a href="#">MA-WERA</a>
-      			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      				<span class="navbar-toggler-icon"></span>
-    			</button>
-    		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-      		<ul class="navbar-nav">
-       		 <li class="nav-item active">
-         		 <a class="nav-link btn-danger rounded-pill postbtn" href="post.html">POST A JOB <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-        	<input type="text" name="searchbar" placeholder="SEARCH" class="m-2">
-          <button class="btn btn-info rounded-pill">SEARCH</button>
-        </li>
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        <img class="userphoto" src="images/user.svg">
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Sign-Up</a>
-          <a class="dropdown-item" href="#">Login</a>
-          <a class="dropdown-item" href="#">My Resume</a>
-        </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  </div>
+		<!-- <li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">  Dropdown  </a>
+			<ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Menu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Menu item 2 </a></li>
+			</ul>
+		</li> -->
+		<li class="nav-item">
+		<a class="btn ml-2 btn-danger" href="post.html">POST A JOB</a></li>
+			</ul>
+		  </div>
+		</nav>
 		<!-- nav-bar end -->
 
 		<!-- jumbotron start -->
@@ -56,14 +52,13 @@
 				<div class="col-8">
 				<h1 id="murdertext1">
 					In Most Countries, <br>Murder is a crime...
-				</h1>	
+				</h1>
 				</div>
 				<div class="col-4">
 				<h4 id="murdertext2">
 					... but posting your CV on Ma-Wera.com is completely legal.
 				</h4>
-				</div>
-			
+				</div>	
 		</div>
 		<!-- jumbotron end -->
 
@@ -78,58 +73,46 @@
 			<p id="about2">
 				We are a Kenyan agency based in Nairobi, specializing in the temporary placement of staff and strictly in accordance with the legislation of our country.<br>
 				Our team of experts offers the fastest and most reliable recruitment service for local companies in major cities and town within the region.<br>
-				We are looing forward to working with you and creating a lasting relationship towards your career path.
+				We are looking forward to working with you and creating a lasting relationship towards your career path.
 			</p>
 
-			<!-- popular categories -->
-		<div class="row popular">
-			<p id="about2">POPULAR CATEGORIES</center></p>
+		<div class="container-fluid">
+			<div class="row popular">
+				<p id="about2">POPULAR CATEGORIES</center></p>
+			</div>
+			<div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4">
+					<div class="col-5">
+						<div class="card card-block">
+							<p class="cardtitle"><center>I.C.T</center></p>
+							<img src="images/technical-support.svg">
+						</div>
+					</div>
+					<div class="col-5">
+						<div class="card card-block">
+							<p class="cardtitle"><center>CATERING</center></p>
+							<img src="images/cooking.svg">
+						</div>
+					</div>
+					<div class="col-5">
+						<div class="card card-block">
+							<p class="cardtitle"><center>FINANCE</center></p>
+							<img src="images/budget.svg">
+						</div>
+					</div>
+					<div class="col-5">
+						<div class="card card-block">
+							<p class="cardtitle"><center>CARPENTRY</center></p>
+							<img src="images/woodworking.svg">
+						</div>
+					</div>
+					<div class="col-5">
+						<div class="card card-block">
+							<p class="cardtitle"><center>PHOTOGRAPHY</center></p>
+							<img src="images/camera.svg">
+						</div>
+					</div>
+			</div>
 		</div>
-		<div class="cardcategory"  id="scrollable-section">
-			<a href="">
-				<div class="card card-block">
-				<p class="cardtitle"><center>PHOTOGRAPHY</center></p>
-				<img src="images/camera.svg">
-			</div>
-			</a>
-			<a href="">
-				<div class="card card-block">
-				<p class="cardtitle"><center>CARPENTRY</center></p>
-				<img src="images/woodworking.svg">
-			</div>
-			</a>
-			<a href="">
-				<div class="card card-block">
-				<p class="cardtitle"><center>FINANCE</center></p>
-				<img src="images/budget.svg">
-			</div>
-			</a>
-			<a href="">
-				<div class="card card-block">
-				<p class="cardtitle"><center>FINANCE</center></p>
-				<img src="images/budget.svg">
-			</div>
-			</a>
-			<a href="">
-				<div class="card card-block">
-				<p class="cardtitle"><center>FINANCE</center></p>
-				<img src="images/budget.svg">
-			</div>
-			</a>
-			<a href="">
-				<div class="card card-block">
-				<p class="cardtitle"><center>CATERING</center></p>
-				<img src="images/cooking.svg">
-			</div>
-			</a>
-			<a href="">
-				<div class="card card-block">
-				<p class="cardtitle"><center>I.C.T</center></p>
-				<img src="images/technical-support.svg">
-			</div>
-			</a>	
-		</div>
-
 		<!-- why choose us category start -->
 		<div class=" row popular">
 			<p id="about2">WHY CHOOSE US?</p>
