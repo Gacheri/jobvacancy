@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>mawera</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	
@@ -14,24 +16,39 @@
 		<!-- pre-header end -->
 
 		<!-- nav-bar start -->
-		<div class="row navigation">
-			<nav class="navbar navbar-light">
-				<div class="col-md-3">
-				<img class="logophoto" src="images/logo.svg">
-				<a href="">MA-WERA</a>
-				</div>
-				<div lass="col-md-8 float-right">
-					<form>
-						<button class="btn btn-danger m-2">POST A JOB</button>
-						<input type="text" name="search" placeholder="SEARCH" id="search" class="btn-outline-info">
-						<button type="submit" class="btn btn-info">SEARCH</button>			
-					</form>
-				</div>
-				<div lass="col-md-1">
-					<button class="userbutton dropdown-toggle"><img src="images/user.svg" class="userphoto ml-4">
-				</div>
-			</nav>
-		</div>
+		<div class="row">
+			
+		
+		<nav class="navbar navbar-expand-lg">
+    		<a class="navbar-brand" href="#"><img class="logophoto" src="images/logo.svg"></a>
+    		<a href="#">MA-WERA</a>
+      			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+    			</button>
+    		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+      		<ul class="navbar-nav">
+       		 <li class="nav-item active">
+         		 <a class="nav-link btn-danger rounded-pill postbtn" href="post.html">POST A JOB <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        	<input type="text" name="searchbar" placeholder="SEARCH" class="m-2">
+          <button class="btn btn-info rounded-pill">SEARCH</button>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <img class="userphoto" src="images/user.svg">
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Sign-Up</a>
+          <a class="dropdown-item" href="#">Login</a>
+          <a class="dropdown-item" href="#">My Resume</a>
+        </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
 		<!-- nav-bar end -->
 
 		<!-- jumbotron start -->
@@ -65,30 +82,52 @@
 			</p>
 
 			<!-- popular categories -->
-		<div class=" row popular">
+		<div class="row popular">
 			<p id="about2">POPULAR CATEGORIES</center></p>
 		</div>
-		<div class="cardcategory">
-			<div class="card">
+		<div class="cardcategory"  id="scrollable-section">
+			<a href="">
+				<div class="card card-block">
 				<p class="cardtitle"><center>PHOTOGRAPHY</center></p>
 				<img src="images/camera.svg">
 			</div>
-			<div class="card">
+			</a>
+			<a href="">
+				<div class="card card-block">
 				<p class="cardtitle"><center>CARPENTRY</center></p>
 				<img src="images/woodworking.svg">
 			</div>
-			<div class="card">
+			</a>
+			<a href="">
+				<div class="card card-block">
 				<p class="cardtitle"><center>FINANCE</center></p>
 				<img src="images/budget.svg">
 			</div>
-			<div class="card">
+			</a>
+			<a href="">
+				<div class="card card-block">
+				<p class="cardtitle"><center>FINANCE</center></p>
+				<img src="images/budget.svg">
+			</div>
+			</a>
+			<a href="">
+				<div class="card card-block">
+				<p class="cardtitle"><center>FINANCE</center></p>
+				<img src="images/budget.svg">
+			</div>
+			</a>
+			<a href="">
+				<div class="card card-block">
 				<p class="cardtitle"><center>CATERING</center></p>
 				<img src="images/cooking.svg">
 			</div>
-			<div class="card">
+			</a>
+			<a href="">
+				<div class="card card-block">
 				<p class="cardtitle"><center>I.C.T</center></p>
 				<img src="images/technical-support.svg">
 			</div>
+			</a>	
 		</div>
 
 		<!-- why choose us category start -->
@@ -106,6 +145,7 @@
 			<div class="col-md-6">
 				<button id="contactbtn">CONTACT US</button>
 			</div>	
+
 		</div>
 
 		<!-- footer start -->
@@ -127,5 +167,8 @@
 				<button type="submit" class="btn btn-warning p-2 ml-10 mt-2 mb-5" id="subscribebtn">SUBSCRIBE</button>
 			</div>	
 		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 </html>

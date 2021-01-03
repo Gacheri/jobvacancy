@@ -17,12 +17,16 @@ nav a{
 	margin-left: 2em;
 	font-weight: bold;
 }
+.postbtn{
+	margin-left: 25em;
+}
 #search{
 	border-radius: 0.5em;
 	height: 2.6em;
 }
 .userphoto{
 	height: 3em;
+	margin-left: 55em;
 }
 .userbutton{
 	border:0;
@@ -74,12 +78,19 @@ nav a{
 	color: rgba(255,255,255);
 	letter-spacing: 0.5em;
 }
+.card-block:hover{
+		transform: translateY(-5px);
+		box-shadow: none;
+	}
+
 .card{
 	margin:1em;
 }
-.cardcategory{
+#scrollable-section{
+	overflow-x: auto;
 	display: inline-flex;
 }
+
 .cardcategory img{
 	height: 10em;
 	padding: 1em;
@@ -103,3 +114,18 @@ nav a{
 #subscribebtn{
 	margin-left: 9em;
 }
+#post-text{
+	text-align: center;
+	letter-spacing: 0.5em;
+}
+.selections{
+	width: 100%;
+	border-color: rgba(0,0,0,0.2);
+}
+.alldone{
+	margin: 2em;
+	width: 20em;
+	height: 4em;
+	font-size: larger;
+}
+

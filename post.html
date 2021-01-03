@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>POST A JOB</title>
+        <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img class="logophoto" src="images/logo.svg"></a>
+                <a href="#">MA-WERA</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <img class="userphoto" src="images/user.svg">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Sign-Up</a>
+              <a class="dropdown-item" href="#">Login</a>
+              <a class="dropdown-item" href="#">My Resume</a>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+
+      <!-- ps section start -->
+        <div>
+            <h1 id="post-text">POST A JOB</h1>
+        </div>
+        <div>
+            <p class="p-3">P.S....<br>Fill in the information as acurately as possible. We are all about correct vibes here.<br> Thank you.
+             </p>
+        </div>
+        <div class="form-group p-4">
+            <label for="company">COMPANY NAME</label>
+            <input type="text" placeholder="company or employer's name" id="companyname" class="form-control" >
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group p-4">
+                    <label for="company">JOB TITLE</label>
+                    <input type="text" placeholder="company or employer's name" id="companyname" class="form-control" >
+                </div>
+            </div>
+            <div class="col-md-6 form-group p-4">
+                <label for="cars">CHOOSE A TIME-FRAME</label><br>
+                <select id="timeframe" name="Time-Frame" class="h-50 selections">
+                <option value="parttime">Part Time</option>
+                <option value="fulltime">Full Time</option>
+                <option value="intern">Internship contract</option>
+                <option value="attachee">Attachment Contract</option>
+                </select>
+            </div>
+        </div>
+            <div class="row">
+                <div class="p-4 col-md-6 form-group">
+                    <label for="cars">CHOOSE A CATEGORY</label><br>
+                    <select id="timeframe" name="Time-Frame" class="h-50 selections">
+                        <option value="parttime">SOFTWARE ENGINEERING</option>
+                        <option value="fulltime">GAME DEVELOPMENT</option>
+                        <option value="intern">CAR MECHANIC</option>
+                        <option value="attachee">FOOTBALL COACH</option>
+                    </select>
+                 </div>
+                 <div class="p-4 col-md-6 form-group">
+                    <label for="cars">ADD A CATEGORY</label><br>
+                    <input type="text" name="addcategory" id="addcategory" placeholder="addcategory" class="selections">
+                 </div>
+            </div>
+            <div class="row">
+                <div class="p-4 col-md-6 form-group">
+                    <label for="cars">LOCATION</label><br>
+                    <select id="timeframe" name="Time-Frame" class="h-50 selections">
+                        <option value="parttime">NAIROBI</option>
+                        <option value="fulltime">MOMBASA</option>
+                        <option value="intern">KISUMU</option>
+                        <option value="attachee">MACHAKOS</option>
+                    </select>
+                 </div>
+                 <div class="p-4 col-md-6 form-group">
+                    <label for="cars">PAYMENT PER MONTH</label><br>
+                    <input type="text" name="addcategory" id="addcategory" placeholder="add payment in shillings" class="selections">
+                 </div>
+            </div>
+            <div class="row">
+                <div class="p-4 col-md-6 form-group">
+                    <label for="cars">JOB REQUIREMENTS</label><br>
+                    <textarea name="message" rows="10" cols="30" placeholder="add necessary requirements here" class="selections"></textarea>
+                 </div>
+                 <div class="p-4 col-md-6 form-group">
+                    <label for="cars">JOB DESCRIPTION</label><br>
+                    <textarea name="message" rows="10" cols="30" placeholder="outline requirements from applicant, ie, what they are expected to acheive." class="selections"></textarea>
+                 </div>
+            </div>
+            <div>
+                <button class="shadow alldone btn-outline-success">
+                    ALL DONE
+                </button>
+            </div>   
+        </div>
+
+        <!-- footer -->
+    <div  class="footer">
+        <div class="row socials">
+			<div class="col-md-7">
+				<p>MA-WERA</p>
+				<p>copyright &copy 2020 MA-WERA</p>	
+				<img src="images/facebook.svg">
+				<img src="images/instagram.svg">
+				<img src="images/twitter.svg">
+				<img src="images/whatsapp.svg">
+			</div>
+			<div col-md-5>
+				<p class="ml-5">SUBSCRIBE TO OUR NEWSLETTER</p>
+				<form>
+					<input type="text" name="username" class="btn-outline-warning mr-3" placeholder="username">
+					<input type="text" name="email" class="btn-outline-warning" placeholder="e-mail">
+				</form>
+				<button type="submit" class="btn btn-warning p-2 ml-10 mt-2 mb-5" id="subscribebtn">SUBSCRIBE</button>
+			</div>	
+        </div>
+    </div>
+      <!-- ps section end -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    </body>
+</html>
