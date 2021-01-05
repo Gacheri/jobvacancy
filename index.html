@@ -9,6 +9,19 @@
 	
 </head>
 <body>
+	<div>
+		<div class="modal fade" id="usermodal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				  <div class="modal-body">  
+					<a href="signup.html" style="color: black;">SIGN UP</a><br>
+					<a href="login.html" style="color: black;">LOGIN</a><br>
+					<input type="text"  placeholder="search" class="mr-1"><a href="searchresults.html" class="btn btn-success">search</a>
+				  </div>	
+				</div>
+			</div>  
+		</div>
+	</div>
 	<div class="container-fluid">
 		<!-- pre-header start -->
 		<div class="pre-header row">	
@@ -17,6 +30,7 @@
 		<!-- nav-bar start -->
 		<nav class="navbar navbar-expand-lg topnav row">
 			<a class="navbar-brand" href="#"> <img class="logo" src="images/logo.svg" height="40">MA-WERA</a>
+			<a><img src="images/user.svg" alt="" id="usericon" data-toggle="modal" data-target="#usermodal"></a>	
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
@@ -24,8 +38,8 @@
 			<ul class="navbar-nav ml-auto"> 
 				<li>
 					<div class="form-group">
-						<input type="text" placeholder="search" id="searchspace">
-						<button class="btn btn-success" >search</button>
+						<input type="text" placeholder="search by location, title or category" id="searchspace">
+						<a href="searchresults.html" class="btn btn-success">search</a>
 					</div>
 				</li>
 		<li class="nav-item active">
@@ -85,32 +99,40 @@
 						<div class="card card-block">
 							<p class="cardtitle"><center>I.C.T</center></p>
 							<img src="images/technical-support.svg">
+							<a href="joblistings.html" class="cardlink"></a>
 						</div>
 					</div>
 					<div class="col-5">
 						<div class="card card-block">
 							<p class="cardtitle"><center>CATERING</center></p>
 							<img src="images/cooking.svg">
+							<a href="joblistings.html" class="cardlink"></a>
 						</div>
 					</div>
 					<div class="col-5">
 						<div class="card card-block">
 							<p class="cardtitle"><center>FINANCE</center></p>
 							<img src="images/budget.svg">
+							<a href="joblistings.html" class="cardlink"></a>
 						</div>
 					</div>
 					<div class="col-5">
 						<div class="card card-block">
 							<p class="cardtitle"><center>CARPENTRY</center></p>
 							<img src="images/woodworking.svg">
+							<a href="joblistings.html" class="cardlink"></a>
 						</div>
 					</div>
 					<div class="col-5">
 						<div class="card card-block">
 							<p class="cardtitle"><center>PHOTOGRAPHY</center></p>
 							<img src="images/camera.svg">
+							<a href="joblistings.html" class="cardlink"></a>
 						</div>
 					</div>
+			</div>
+			<div class="d-flex justify-content-center align-items-center mt-3">
+				<a href="searchresults.html" class="btn btn-warning">View more jobs...</a>
 			</div>
 		</div>
 		<!-- why choose us category start -->
@@ -126,7 +148,7 @@
 				</p>
 			</div>
 			<div class="col-md-6">
-				<button id="contactbtn">CONTACT US</button>
+				<a href="contact.html" id="contactbtn" class="btn btn-dark">CONTACT US</a>
 			</div>	
 
 		</div>
@@ -147,8 +169,25 @@
 					<input type="text" name="username" class="btn-outline-warning mr-3" placeholder="username">
 					<input type="text" name="email" class="btn-outline-warning" placeholder="e-mail">
 				</form>
-				<button type="submit" class="btn btn-warning p-2 ml-10 mt-2 mb-5" id="subscribebtn">SUBSCRIBE</button>
-			</div>	
+				
+				<button type="submit" class="btn btn-warning p-2 ml-10 mt-2 mb-5" data-toggle="modal" data-target="#subscribemodal"  id="subscribebtn">SUBSCRIBE</button>
+				<div class="modal fade" id="subscribemodal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						  <div class="modal-body">
+							  
+							<a href="index.html" style="color: black;">Thank you for reaching out to us. We will be sending any relevant information to your email</a>
+						  </div>
+							
+							<div class="modal-footer">
+								<a href="index.html" class="btn btn-danger">exit</a>
+							</div>
+						</div>
+					</div>  
+				</div>	
+			</div>
+
+			
 		</div>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
